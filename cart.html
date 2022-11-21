@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <title>
+        E-Commerce Website
+    </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="common.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo arrange-left wid-25">
+                <h1><span>E</span><span>Comm</span></h1>
+            </div>
+            <div class="search-product arrange-left wid-50">
+                <input type="text" placeholder="Search Product">
+                <button>Search
+                    <i class='fas fa-search'></i>
+                </button>
+            </div>
+            <div class="selected-product arrange-left wid-25">
+                <button class="common-btn"><span>
+                        <i class="fa fa-shopping-cart" aria-hidden="false"></i>0</span></button>
+                <button class="common-btn"><span><i class="fa fa-heart" aria-hidden="false"></i>0</span></button>
+            </div>
+        </div>
+
+    </div>
+    <div class="full-banner-wrapper">
+        <div class="shop-header">
+            <h1>Your Shopping Details</h1>
+            <h3>Cart Details</h3>
+        </div>
+        <div class="wrapper next-row">
+            <div class="wid-75 arrange-left">
+                <div class="cart-details">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-with-img">
+                                     <img src="women shirt.jpg" alt=""><span>Women Suit</span></td>
+                                <td><span>2500</span></td>
+                                <td>
+                                    <div class="quantity-input">
+                                        <button>-</button>
+                                        <input type="text" value="1"/>
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>2500</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text-with-img"> <img src="women shirt.jpg" alt=""><span>Women Suit</span></td>
+                                <td><span>2500</span></td>
+                                <td>
+                                    <div class="quantity-input">
+                                        <button>-</button>
+                                        <input type="text" value="2">
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>2500</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text-with-img"> <img src="women shirt.jpg" alt=""><span>Ochre Men Loafers</span></td>
+                                <td> <span>5000</span></td>
+                                <td>
+                                    <div class="quantity-input">
+                                        <button>-</button>
+                                        <input type="text" value="1">
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>2500</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text-with-img"> <img src="women shirt.jpg" alt=""><span>Women Suit</span></td>
+                                <td> <span>2500</span></td>
+                                <td>
+                                    <div class="quantity-input">
+                                        <button>-</button>
+                                        <input type="text" value="1">
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>2500</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="wid-25 arrange-left ">
+                <div class="cart-summary-details">
+                    <div class="coupon-code">
+                        <input type="text" placeholder="Enter Coupon Code">
+                        <button>Apply Coupon </button>
+                    </div>
+                    <div class="cart-summary-body">
+                        <div class="cart-summary-item">
+                            <h6>Sub-Total</h6>
+                            <h6>Rs. 2500</h6>
+                        </div>
+                        <div class="cart-summary-item">
+                            <h6>Shipping </h6>
+                            <h6>Rs. 50</h6>
+                        </div>
+                    </div>
+                    <div class="total-wrapper">
+                        <div class="total-cost">
+                            <h4>Total</h4>
+                            <h4>2550</h4>
+                        </div>
+                        <div class="proceed-input">
+                            <button>Proceed to Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper next-row">
+            <div class="footer">
+                <div class="wid-25 arrange-left margin-right-5">
+                    <div class="logo ">
+                        <h1><span>E</span><span>Comm</span></h1>
+                    </div>
+                    <p class="footer-desc">
+                        Thank you for patronizng our services. Do visit again
+                    </p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa fa-map-marker-alt icon"></i>Shop No. 123, XYZ Street, Chndigarh, India
+
+                        </li>
+                        <li><i class="fa fa-envelope icon"></i>abcde@example.com</li>
+                        <li><i class="fa fa-phone icon"></i>+91 1234567890</li>
+                    </ul>
+                </div>
+                <div class="wid-25 quick-links arrange-left">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>Our Shops</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>Shop Details</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>Checkout</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>About Us</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-angle-right"></i><span>Cart</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="wid-25 arrange-left">
+                    <h3>News Letter</h3>
+                    <input type="text" class="footer-input" placeholder="Enter your name">
+                    <input type="text" class="footer-input" placeholder="Enter your email">
+                    <button class="footer-button">Subscribe</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div>
+                <b>MAD Technologies</b> All Rights Reserved . Designed by <b>Manka Datta</b>
+
+            </div>
+            <img src="credit cards.jpg" alt="Payment Methods">
+        </div>
+    </div>
+
+</body>
+
+</html>
